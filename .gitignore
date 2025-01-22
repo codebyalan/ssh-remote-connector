@@ -1,0 +1,43 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+mvnw
+mvnw.cmd
+.gitattributes
+.mvn
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/src/main/resources/aig-dev.unknown
+/src/main/resources/aig-dev.key
+/src/main/resources/ssh-key-2021-10-20.key
+/src/main/resources/application-loc.properties
+/src/main/resources/application-uat.properties
+/src/main/resources/D360Uat-ssh-key-2022-03-15.key
